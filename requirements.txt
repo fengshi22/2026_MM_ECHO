@@ -1,0 +1,10 @@
+# Python 3.10
+
+numpy==1.26.4
+scipy==1.15.3
+scikit-learn==1.3.0
+hdf5storage==0.2.2
+
+torch==2.10.0
+torch-geometric==2.8.0.post1
+omegaconf==2.3.1
