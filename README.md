@@ -7,7 +7,7 @@ Learning discriminative representations from multi-view data remains challenging
 For each view, the Euclidean local and Poincar\'e-informed global paths capture neighborhood and non-local structural information, respectively. Their outputs are adaptively fused within each view and subsequently refined across views through consensus-guided attention.
 
 <p align="center">
-  <img src="framework/ECHO_framework.png" width="100%" alt="ECHO architecture">
+  <img src="framework/ECHO_framework.png" width="100%" alt="ECHO framework">
 </p>
 
 ## Experiment
