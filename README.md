@@ -27,12 +27,12 @@ The datasets used can be downloaded from [here](https://drive.google.com/drive/f
 pip install -r requirements.txt  
 ```
 
-# Run one dataset; replace the name with any identifier listed above
+Run one dataset
 ```bash
 python main.py --dataset 20newsgroups --device cuda:0
 ```
 
-# Run all eight datasets sequentially, once per dataset
+Run all eight datasets sequentially
 ```bash
 python main.py --dataset all --device cuda:0
 ```
