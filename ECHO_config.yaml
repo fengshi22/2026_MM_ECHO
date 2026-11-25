@@ -1,0 +1,85 @@
+load_path: /data/
+label_ratio: 0.1
+knn: 20
+num_layers: 1
+lr: 0.001
+
+20newsgroups:
+  num_heads: 1
+  max_epoch: 50
+  dropout_rate: 0.05
+  lr_step: 20
+  lr_decay: 0.9
+  supernodes_ratio: 0.1
+  repr_hid_dim: 32
+  common_feature_dim: 128
+
+esp_game:
+  num_heads: 3
+  max_epoch: 100
+  dropout_rate: 0.04
+  lr_step: 20
+  lr_decay: 0.9
+  supernodes_ratio: 0.02
+  repr_hid_dim: 32
+  common_feature_dim: 128
+
+Hdigit:
+  num_heads: 2
+  max_epoch: 70
+  dropout_rate: 0.01
+  lr_step: 10
+  lr_decay: 0.9
+  supernodes_ratio: 0.02
+  repr_hid_dim: 64
+  common_feature_dim: 256
+
+NUSWIDE:
+  num_heads: 1
+  max_epoch: 100
+  dropout_rate: 0.02
+  lr_step: 20
+  lr_decay: 0.9
+  supernodes_ratio: 0.01
+  repr_hid_dim: 32
+  common_feature_dim: 128
+
+NUSWide20k:
+  num_heads: 5
+  max_epoch: 100
+  dropout_rate: 0.01
+  lr_step: 20
+  lr_decay: 0.3
+  supernodes_ratio: 0.01
+  repr_hid_dim: 128
+  common_feature_dim: 256
+
+OutdoorScene:
+  num_heads: 5
+  max_epoch: 100
+  dropout_rate: 0.02
+  lr_step: 50
+  lr_decay: 0.9
+  supernodes_ratio: 0.03
+  repr_hid_dim: 64
+  common_feature_dim: 256
+
+prokaryotic:
+  num_heads: 1
+  max_epoch: 100
+  dropout_rate: 0.06
+  lr_step: 30
+  lr_decay: 0.9
+  supernodes_ratio: 0.02
+  repr_hid_dim: 64
+  common_feature_dim: 256
+
+UCI:
+  num_heads: 4
+  max_epoch: 60
+  dropout_rate: 0.01
+  lr_step: 30
+  lr_decay: 0.9
+  supernodes_ratio: 0.07
+  repr_hid_dim: 32
+  common_feature_dim: 256
